@@ -1,0 +1,41 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Django migration files
+*/migrations/*
+
+# Local configuration files
+*.env
+*.sqlite3
+*.db
+
+# Media files
+/media/
+
+# Static files (if not using a dedicated static files server)
+/static/
+
+# Logs
+*.log
+
+# .DS_Store (macOS)
+.DS_Store
+
+# Thumbs.db (Windows)
+Thumbs.db
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Backup files
+*~
+*.bak
